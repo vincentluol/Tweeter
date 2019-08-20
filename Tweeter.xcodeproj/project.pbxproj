@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320B20A5230BC1CB003262B8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */; };
+		320B20A7230BC2BF003262B8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B20A6230BC2BF003262B8 /* WelcomeViewController.swift */; };
+		320B20A9230C2925003262B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B20A8230C2925003262B8 /* LoginViewController.swift */; };
 		32E2653B230B9B3D0001F4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2653A230B9B3D0001F4AE /* AppDelegate.swift */; };
-		32E2653D230B9B3D0001F4AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2653C230B9B3D0001F4AE /* ViewController.swift */; };
+		32E2653D230B9B3D0001F4AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2653C230B9B3D0001F4AE /* HomeViewController.swift */; };
 		32E26540230B9B3D0001F4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E2653E230B9B3D0001F4AE /* Main.storyboard */; };
 		32E26543230B9B3D0001F4AE /* Tweeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32E26541230B9B3D0001F4AE /* Tweeter.xcdatamodeld */; };
 		32E26545230B9B400001F4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E26544230B9B400001F4AE /* Assets.xcassets */; };
 		32E26548230B9B400001F4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E26546230B9B400001F4AE /* LaunchScreen.storyboard */; };
+		C3C3039BAE12DFE55C87DD01 /* Pods_Tweeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532FF786D2BE60CEC88721DA /* Pods_Tweeter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		320B20A6230BC2BF003262B8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		320B20A8230C2925003262B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		32E26537230B9B3D0001F4AE /* Tweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E2653A230B9B3D0001F4AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32E2653C230B9B3D0001F4AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32E2653C230B9B3D0001F4AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		32E2653F230B9B3D0001F4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32E26542230B9B3D0001F4AE /* Tweeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tweeter.xcdatamodel; sourceTree = "<group>"; };
 		32E26544230B9B400001F4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E26547230B9B400001F4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E26549230B9B400001F4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532FF786D2BE60CEC88721DA /* Pods_Tweeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A1D02FC7C86B2CA1FC58CC /* Pods-Tweeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweeter.debug.xcconfig"; path = "Target Support Files/Pods-Tweeter/Pods-Tweeter.debug.xcconfig"; sourceTree = "<group>"; };
+		EF62D5001CE977EBC419765C /* Pods-Tweeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweeter.release.xcconfig"; path = "Target Support Files/Pods-Tweeter/Pods-Tweeter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C3039BAE12DFE55C87DD01 /* Pods_Tweeter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1662E1D77198510462075EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A1D02FC7C86B2CA1FC58CC /* Pods-Tweeter.debug.xcconfig */,
+				EF62D5001CE977EBC419765C /* Pods-Tweeter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		32E2652E230B9B3D0001F4AE = {
 			isa = PBXGroup;
 			children = (
 				32E26539230B9B3D0001F4AE /* Tweeter */,
 				32E26538230B9B3D0001F4AE /* Products */,
+				1662E1D77198510462075EDC /* Pods */,
+				7A0B3D792F140BD990A68C3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +79,49 @@
 			isa = PBXGroup;
 			children = (
 				32E2653A230B9B3D0001F4AE /* AppDelegate.swift */,
-				32E2653C230B9B3D0001F4AE /* ViewController.swift */,
-				32E2653E230B9B3D0001F4AE /* Main.storyboard */,
+				32E2654F230B9E100001F4AE /* Controller */,
+				32E26550230B9E220001F4AE /* Model */,
+				32E26551230B9E2A0001F4AE /* View */,
 				32E26544230B9B400001F4AE /* Assets.xcassets */,
 				32E26546230B9B400001F4AE /* LaunchScreen.storyboard */,
 				32E26549230B9B400001F4AE /* Info.plist */,
 				32E26541230B9B3D0001F4AE /* Tweeter.xcdatamodeld */,
 			);
 			path = Tweeter;
+			sourceTree = "<group>";
+		};
+		32E2654F230B9E100001F4AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32E2653C230B9B3D0001F4AE /* HomeViewController.swift */,
+				320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */,
+				320B20A6230BC2BF003262B8 /* WelcomeViewController.swift */,
+				320B20A8230C2925003262B8 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32E26550230B9E220001F4AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32E26551230B9E2A0001F4AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32E2653E230B9B3D0001F4AE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A0B3D792F140BD990A68C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				532FF786D2BE60CEC88721DA /* Pods_Tweeter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E2654C230B9B400001F4AE /* Build configuration list for PBXNativeTarget "Tweeter" */;
 			buildPhases = (
+				E49FD9AE105C1A31AE0E2BAC /* [CP] Check Pods Manifest.lock */,
 				32E26533230B9B3D0001F4AE /* Sources */,
 				32E26534230B9B3D0001F4AE /* Frameworks */,
 				32E26535230B9B3D0001F4AE /* Resources */,
@@ -133,13 +191,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E49FD9AE105C1A31AE0E2BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tweeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32E26533230B9B3D0001F4AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320B20A9230C2925003262B8 /* LoginViewController.swift in Sources */,
+				320B20A5230BC1CB003262B8 /* CreateAccountViewController.swift in Sources */,
 				32E26543230B9B3D0001F4AE /* Tweeter.xcdatamodeld in Sources */,
-				32E2653D230B9B3D0001F4AE /* ViewController.swift in Sources */,
+				32E2653D230B9B3D0001F4AE /* HomeViewController.swift in Sources */,
+				320B20A7230BC2BF003262B8 /* WelcomeViewController.swift in Sources */,
 				32E2653B230B9B3D0001F4AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +370,7 @@
 		};
 		32E2654D230B9B400001F4AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A1D02FC7C86B2CA1FC58CC /* Pods-Tweeter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +388,7 @@
 		};
 		32E2654E230B9B400001F4AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF62D5001CE977EBC419765C /* Pods-Tweeter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
