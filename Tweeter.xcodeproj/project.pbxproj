@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		320B20A5230BC1CB003262B8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */; };
 		320B20A7230BC2BF003262B8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B20A6230BC2BF003262B8 /* WelcomeViewController.swift */; };
 		320B20A9230C2925003262B8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B20A8230C2925003262B8 /* LoginViewController.swift */; };
+		320B20AB230C3480003262B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 320B20AA230C3480003262B8 /* GoogleService-Info.plist */; };
+		3211BAE2230E567D00C00A2E /* ComposeTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211BAE1230E567D00C00A2E /* ComposeTweetViewController.swift */; };
 		32E2653B230B9B3D0001F4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2653A230B9B3D0001F4AE /* AppDelegate.swift */; };
 		32E2653D230B9B3D0001F4AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E2653C230B9B3D0001F4AE /* HomeViewController.swift */; };
 		32E26540230B9B3D0001F4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E2653E230B9B3D0001F4AE /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		320B20A6230BC2BF003262B8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		320B20A8230C2925003262B8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		320B20AA230C3480003262B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3211BAE1230E567D00C00A2E /* ComposeTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeTweetViewController.swift; sourceTree = "<group>"; };
 		32E26537230B9B3D0001F4AE /* Tweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E2653A230B9B3D0001F4AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E2653C230B9B3D0001F4AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				32E26544230B9B400001F4AE /* Assets.xcassets */,
 				32E26546230B9B400001F4AE /* LaunchScreen.storyboard */,
 				32E26549230B9B400001F4AE /* Info.plist */,
+				320B20AA230C3480003262B8 /* GoogleService-Info.plist */,
 				32E26541230B9B3D0001F4AE /* Tweeter.xcdatamodeld */,
 			);
 			path = Tweeter;
@@ -93,10 +98,11 @@
 		32E2654F230B9E100001F4AE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				32E2653C230B9B3D0001F4AE /* HomeViewController.swift */,
-				320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */,
 				320B20A6230BC2BF003262B8 /* WelcomeViewController.swift */,
+				320B20A4230BC1CB003262B8 /* CreateAccountViewController.swift */,
 				320B20A8230C2925003262B8 /* LoginViewController.swift */,
+				32E2653C230B9B3D0001F4AE /* HomeViewController.swift */,
+				3211BAE1230E567D00C00A2E /* ComposeTweetViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 				32E26533230B9B3D0001F4AE /* Sources */,
 				32E26534230B9B3D0001F4AE /* Frameworks */,
 				32E26535230B9B3D0001F4AE /* Resources */,
+				6215A0663B6F69F867DEDC4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,12 +193,30 @@
 				32E26548230B9B400001F4AE /* LaunchScreen.storyboard in Resources */,
 				32E26545230B9B400001F4AE /* Assets.xcassets in Resources */,
 				32E26540230B9B3D0001F4AE /* Main.storyboard in Resources */,
+				320B20AB230C3480003262B8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6215A0663B6F69F867DEDC4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweeter/Pods-Tweeter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweeter/Pods-Tweeter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tweeter/Pods-Tweeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E49FD9AE105C1A31AE0E2BAC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +250,7 @@
 				320B20A5230BC1CB003262B8 /* CreateAccountViewController.swift in Sources */,
 				32E26543230B9B3D0001F4AE /* Tweeter.xcdatamodeld in Sources */,
 				32E2653D230B9B3D0001F4AE /* HomeViewController.swift in Sources */,
+				3211BAE2230E567D00C00A2E /* ComposeTweetViewController.swift in Sources */,
 				320B20A7230BC2BF003262B8 /* WelcomeViewController.swift in Sources */,
 				32E2653B230B9B3D0001F4AE /* AppDelegate.swift in Sources */,
 			);
@@ -374,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42MTUPQS75;
 				INFOPLIST_FILE = Tweeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -392,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42MTUPQS75;
 				INFOPLIST_FILE = Tweeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
