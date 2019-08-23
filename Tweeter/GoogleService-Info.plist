@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1052624735795-aku4980rskc9o2r4qrbtklq5qr2v0ik8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1052624735795-aku4980rskc9o2r4qrbtklq5qr2v0ik8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgXIMQb7uL7NDfNTL6EtLsWEnoEKqBchY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1052624735795</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vincent.Tweeter</string>
+	<key>PROJECT_ID</key>
+	<string>tweeter-462a8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tweeter-462a8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1052624735795:ios:8e34e699d7b1f899</string>
+	<key>DATABASE_URL</key>
+	<string>https://tweeter-462a8.firebaseio.com</string>
+</dict>
+</plist>
